@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f204d9a051ba4debadea9c5cb0dc9eb9" Name="Diagram1">
+        <EntityTypeShape EntityType="AssetLocationModel.AssetLocation" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AssetLocationModel.Assetlocation1" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AssetLocationModel.Asset" Width="1.5" PointX="5.5" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="AssetLocationModel.FK_Assetlocations_Locations" ManuallyRouted="false" />
+        <AssociationConnector Association="AssetLocationModel.FK_Assetlocations_Assets" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
