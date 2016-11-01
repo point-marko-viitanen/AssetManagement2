@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AssetManagementWeb.Utilities
+namespace AssetManagement2.Utilities
 {
     public static class WebUtilities
     {
